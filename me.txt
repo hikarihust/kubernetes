@@ -1,4 +1,5 @@
 Cài đặt Kubernetes Cluster
 Cài đặt và sử dụng Kubernetes Dashboard
 Lệnh kubectl và Node trong Kubernetes
+Cơ bản về POD trong Kubernetes
     
