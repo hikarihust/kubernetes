@@ -7,4 +7,5 @@ ReplicaSet và HPA trong Kubernetes
 Deployment trong Kubernetes triển khai cập nhật và scale
 Triển khai Metrics Server trên Kubernetes
 Sử dụng Service và Secret Tls trong Kubernetes
+DaemonSet, Job, CronJob trong Kubernetes
     

@@ -1,0 +1,24 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: myjob
+spec:
+  # So lan chay POD thanh cong
+  completions: 10
+  # So lan tao chay lai POD bi loi, truoc khi danh dau job that bai
+  backoffLimit: 3
+  # So POD chay song song
+  parallelism: 2
+  # So giay toi da cua JOB, qua thoi han tren he thong ngat JOB
+  activeDeadlineSeconds: 120
+
+  template:
+    spec:
+      containers:
+      - name: busybox
+        image: busybox
+        command:
+          - /bin/sh
+          - -c
+          - date; echo "Job executed"
+      restartPolicy: Never
