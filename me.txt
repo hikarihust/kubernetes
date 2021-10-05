@@ -9,4 +9,5 @@ Triển khai Metrics Server trên Kubernetes
 Sử dụng Service và Secret Tls trong Kubernetes
 DaemonSet, Job, CronJob trong Kubernetes
 Sử dụng Persistent Volume (pv) và Persistent Volume Claim (pvc) trong Kubernetes
+Sử dụng Persistent Volume (pv) NFS trong kubernetes
     
